@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "cstring": "cpp",
+        "string": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "sa_tc_01_input": "c"
+    }
+}
