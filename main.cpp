@@ -53,23 +53,23 @@ void sa_tc_01() {
     // cout << "result4: " << result4 << endl;
 
     //Task 5
-    ifstream file(input_file);
-    int num_pwds = 11;
-    vector<string> arr_pwds = {"123cbhLm@#", "70@#aj6qE", "70@#aj6qE", "89@#okcneuRY45", "cbw#mc@$7819kcj", "70@#aj6qE", "cbw#mc@$7819kcj", "cbw#mc@$7819kcj", "124cbhKq2#", "70@#aj6qE", "cbw#mc@$7819kcj"};
+    // ifstream file(input_file);
+    // int num_pwds = 11;
+    // vector<string> arr_pwds = {"123cbhLm@#", "70@#aj6qE", "70@#aj6qE", "89@#okcneuRY45", "cbw#mc@$7819kcj", "70@#aj6qE", "cbw#mc@$7819kcj", "cbw#mc@$7819kcj", "124cbhKq2#", "70@#aj6qE", "cbw#mc@$7819kcj"};
     // file >> num_pwds;
     // for(int i = 0; i < num_pwds; i++) {
     //     string s;
     //     file >> s;
     //     arr_pwds.push_back(s);
     // }
-    const char* arr_pwds_cstr[num_pwds];
-    int i = 0;
-    for(auto &s: arr_pwds) {
-        const char* str = s.c_str();
-        arr_pwds_cstr[i++] = str;
-    }
-    int result5 = findCorrectPassword(arr_pwds_cstr, num_pwds);
-    cout << "result5: " << result5 << endl;
+    // const char* arr_pwds_cstr[num_pwds];
+    // int i = 0;
+    // for(auto &s: arr_pwds) {
+    //     const char* str = s.c_str();
+    //     arr_pwds_cstr[i++] = str;
+    // }
+    // int result5 = findCorrectPassword(arr_pwds_cstr, num_pwds);
+    // cout << "result5: " << result5 << endl;
 }
 
 int main(int argc, const char * argv[]) {
