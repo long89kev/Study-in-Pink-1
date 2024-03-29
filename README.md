@@ -21,7 +21,7 @@ g++ -o main main.cpp study_in_pink1.cpp -I . -std=c++11
 
 ## Task Completion
 
-Tasks within the `main.cpp` file can be individually checked for completion. To do so, follow these steps:
+Tasks within the `main.cpp` file must be individually checked for completion. To do so, follow these steps:
 
 1. Uncomment the desired task in the `main.cpp` file.
 2. Recompile the program using the same compilation command mentioned above.
@@ -41,3 +41,4 @@ This process allows for the verification of each task's completion independently
 ## Note
 
 Please note that the primary implementation for this assignment resides in the `study_in_pink_1.cpp` file. Any modifications or enhancements should be made within this file.
+Each task must be 
